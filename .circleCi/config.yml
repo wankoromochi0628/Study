@@ -5,12 +5,3 @@ jobs:
       - image: circleci/node:8.11.3
     steps:
       - run: echo "hello world"
-      - checkout
-      - run:
-          name: Install dependencies
-          command: npm install
-          working_directory: /home/circleci/project/WebpackBabel/
-      - run:
-          name: test exec
-          command: npm run test
-          working_directory: /home/circleci/project/WebpackBabel/
