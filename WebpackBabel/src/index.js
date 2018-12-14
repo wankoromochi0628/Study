@@ -16,7 +16,7 @@ console.table(pGrp);
 console.table(array);
 
 export function createGroup(array) {
-    
+
     let grp = [];
 
     while (grp.length < 4) {
