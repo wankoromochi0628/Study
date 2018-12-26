@@ -6,18 +6,7 @@
     console.log(test2 + 'ゆか')
 
     console.log('promise test');
-
-    let num = 0;
-    while(1) {
-        switch (num) {
-            case 0 :
-                num = 1;
-                return num;
-            case 1 :
-                console.log(num);
-                break;
-        }
-    }
+    
 })();
 
 function asyncProcess(value) {
